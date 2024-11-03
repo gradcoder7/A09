@@ -53,7 +53,7 @@ nav ul li a{
 	float:none;
 }
 
-#nav_menu ul li:hover > li{
+#nav_menu ul li:hover > ul{
 	display: block;
 }
 
