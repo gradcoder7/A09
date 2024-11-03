@@ -17,6 +17,33 @@ body {
 a:focus, a:hover {
 	font-style: italic;
 }
+
+nav ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+ul li{
+	float: left;
+}
+
+li a{
+	display: block;
+	width:1/5;
+	text-align: center;
+	padding: 1em 0 1em 0;
+	text-decoration: none;
+	background-color: #800000;
+	color: white;
+	font-weight: bold;
+}
+
+.current{
+	color:yellow;
+}
+
+
 /* the styles for the header */
 header {
 	padding: 1.5em 0 2em 0;
@@ -45,6 +72,10 @@ header img {
 .shadow {
 	text-shadow: 2px 2px 2px #800000;
 }
+
+
+
+
 /* the styles for the section */
 section {
 	width: 525px;
